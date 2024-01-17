@@ -15,7 +15,7 @@ public class GameOfLife {
 		// test1("square.dat");
 		// test2("line.dat");
 		//test3("line.dat", 3);
-		play("glider.dat");
+		//play("glider.dat");
 	}
 
 	// Reads the data file and prints the initial board.
