@@ -156,9 +156,9 @@ public class GameOfLife {
 
 	// Prints the board. Alive and dead cells are printed as 1 and 0, respectively.
 	public static void print(int[][] arr) {
-		for (int i = 1; i < arr.length - 1; i++) { //it has 1 extra row that is not in the actual board just on the frame
-			for (int j = 1; j < arr[0].length - 1; j++) { //it has 1 extra col that is not in the actual board just on the frame
-				System.out.printf("%4d", arr[i][j]); // 4 olması doğru olmayabilir
+		for (int i = 1; i < arr.length - 1; i++) {
+			for (int j = 1; j < arr[0].length - 1; j++) {
+				System.out.print("   " + arr[i][j]); // Use spaces for formatting
 			}
 			System.out.println();
 		}
